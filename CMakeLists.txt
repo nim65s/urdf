@@ -35,6 +35,7 @@ if(APPLE)
 endif(APPLE)
 
 set(PKG_NAME ${PROJECT_NAME})
+set(PKG_VERSION 1.50.0)
 set(PKG_LIBS -lurdf)
 set(PKG_DEPENDS "urdfdom urdfdom_headers")
 set(cmake_conf_file "cmake/pkgconfig/urdf.pc")
