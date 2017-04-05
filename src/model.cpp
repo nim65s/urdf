@@ -92,7 +92,7 @@ bool Model::initXml(TiXmlElement *robot_xml)
 
 bool Model::initString(const std::string& xml_string)
 {
-  boost::shared_ptr<ModelInterface> model;
+  std::shared_ptr<ModelInterface> model;
 
   // necessary for COLLADA compatibility
   if( IsColladaData(xml_string) ) {
